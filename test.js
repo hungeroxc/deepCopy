@@ -1,4 +1,4 @@
-const test = {
+const obj = {
     num: 0,
     str: '',
     boolean: true,
@@ -16,3 +16,5 @@ const test = {
     reg: new RegExp('/我是一个正则/ig'),
     err: new Error('我是一个错误')
 }
+
+module.exports = obj
